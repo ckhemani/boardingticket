@@ -1,4 +1,5 @@
 public class Main {
-    int test;
-    int test1;
+    public static void main(String[] args) {
+
+    }
 }
