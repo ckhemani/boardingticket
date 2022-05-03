@@ -1,10 +1,9 @@
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
+    private static final Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
-        Date newDate = new Date();
-        System.out.println(newDate);
 
-        System.out.println(newDate.toString());
     }
 }
