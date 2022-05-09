@@ -66,23 +66,23 @@ public class Main {
 
         System.out.println("Enter name");
         String name = scanner.nextLine();
-        //System.out.println("Name is: " + name);
+        System.out.println("Name is: " + name);
 
         System.out.println("Enter email");
         String email = scanner.nextLine();
-        //System.out.println("Email is: " + email);
+        System.out.println("Email is: " + email);
 
         System.out.println("Enter phone number");
         String phoneNumber = scanner.nextLine();
-        //System.out.println("Phone number is: " + phoneNumber);
+        System.out.println("Phone number is: " + phoneNumber);
 
         System.out.println("Enter gender");
         String gender = scanner.nextLine();
-        //System.out.println("Gender is: " + gender);
+        System.out.println("Gender is: " + gender);
 
         System.out.println("Enter Age");
         int age = scanner.nextInt();
-        //System.out.println("Age is: " + age);
+        System.out.println("Age is: " + age);
 
 
         System.out.println("\nEnter date\n");
