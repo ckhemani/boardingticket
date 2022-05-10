@@ -1,3 +1,11 @@
 
-Djelloul, djelloul@gmail.com, 7034057809, male, 48, May 9 2022, Bejaia, Algiers, 9.00
+Djelloul,
+djelloul@gmail.com,
+7034057803,
+male,
+48,
+May 9 2022,
+Bejaia,
+Oran,
+5.00
 

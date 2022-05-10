@@ -20,9 +20,10 @@ public class Main {
         BoardingPass.getDateAndTime();
         BoardingPass.generateBoardingPass();
         System.out.println("\nPessenger Data: \n");
-        //readAfile();
         addPerson();
         BoardingPass.generateETA();
+        readAfile();
+        //System.out.println("C:\\FannieProjects\\boardingticket\\Person2.txt");
         //BoardingPass.generateBoardingPass();
         //BoardingPass.generateETA();
 
@@ -53,10 +54,17 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
             Files.writeString(filePath, """
 
-        Djelloul, djelloul@gmail.com, 7034057809, male, 48, May 9 2022, Bejaia, Algiers, 9.00
+        Djelloul, 
+        djelloul@gmail.com, 
+        7034057803, 
+        male, 
+        48, 
+        May 9 2022, 
+        Bejaia, 
+        Oran, 
+        5.00
         
         """);
-
 
         System.out.println("Enter name");
         String name = scanner.nextLine();
@@ -97,6 +105,7 @@ public class Main {
 
         System.out.println("Enter destination");
         String destination = scanner.nextLine();
+
         //System.out.println("destination is: " + destination);
 
         //System.out.println("Enter departure time");
